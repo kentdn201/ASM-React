@@ -32,15 +32,6 @@ const App = () => {
               )) || <ProfilePage />
             }
           />
-          <Route
-            path="/profile1"
-            exact
-            render={() => {
-              if (localStorage.getItem('token') === null)
-                return <LoginPage title="You need to login to continue" />;
-              return <ProfilePage />;
-            }}
-          />
         </Routes>
       </BrowserRouter>
     </div>
