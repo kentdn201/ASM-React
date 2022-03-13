@@ -7,6 +7,7 @@ import ProfilePage from '../ProfilePage/ProfilePage';
 import PostDetailPage from '../PostPage/PostDetailPage/PostDetailPage';
 import NavbarPage from './Nav/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 const App = () => {
   return (
